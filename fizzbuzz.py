@@ -32,5 +32,5 @@ def run_fizzbuzz(i):
             result = translator.translate(numword, dest='es')
             print(result.text)
 
-i = 100
+i = 525
 run_fizzbuzz(i)
