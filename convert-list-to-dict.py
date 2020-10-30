@@ -229,14 +229,14 @@ res = {tuple(sub[:1]): tuple(sub[1:]) for sub in noun_list}
 print("The mapped Dictionary : " + str(res))  
 '''
 
-
+'''
 dict = {}
 
 for l2 in noun_list:
     dict[l2[0]] = l2[1:]
 
 print(dict)
-
+'''
 
 '''
 new_noun_list = str(noun_list)
